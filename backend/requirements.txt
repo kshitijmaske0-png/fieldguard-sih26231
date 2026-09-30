@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+opencv-contrib-python-headless
+numpy
+scikit-image
+pynacl
+reportlab
+pillow
+pyjwt

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+data/uploads/
+data/*.db*
+data/dev_*
+data/.tamper_backup.json
+data/card_reference.json
+node_modules/
+.env
