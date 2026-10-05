@@ -16,7 +16,7 @@ Phone browser (plain JS PWA, frontend/)  --HTTPS-->  FastAPI (backend/main.py)
 
 ## Live demo
 
-URL: [Pending Deployment]
+URL: https://fieldguard-xp5u.onrender.com/
 
 ## Run it (5 minutes)
 

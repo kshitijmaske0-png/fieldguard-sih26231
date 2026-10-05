@@ -1,4 +1,3 @@
-app = "fieldguard-sih26231"
 primary_region = "iad"
 
 [build]
