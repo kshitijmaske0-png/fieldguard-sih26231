@@ -3,8 +3,8 @@
   "note": "PLACEHOLDER values. Do not treat these as real chemistry. Replace each class colour with values measured from your chosen kit's colour chart using: python -m tools.calibrate kitclass <photo> <kit> <class>. Take reading_window_s from the kit leaflet.",
   "kits": {
     "demo-swatch": {
-      "label": "Demo swatch kit (simulated colours, not a real kit)",
-      "reading_window_s": 30,
+      "label": "SIH 2026 Field Drug Kit",
+      "reading_window_s": 5,
       "max_de": 12.0,
       "min_margin": 4.0,
       "calibrated": false,
