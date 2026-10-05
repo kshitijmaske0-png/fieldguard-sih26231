@@ -71,7 +71,7 @@ function viewLogin() {
     } catch (e) { $app.querySelector("#err").innerHTML = `<div class="warn">${esc(e.message)}</div>`; }
   };
   $app.querySelector("#go").onclick = go;
-  $app.querySelector("#p").onkeydown = (e) => e.key === "Enter" && go();
+  $app.querySelector("#p").onkeydown = (e) => { if (e.key === "Enter") go(); };
 }
 
 // ---------- new test ----------
