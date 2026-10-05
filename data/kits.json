@@ -5,7 +5,7 @@
     "demo-swatch": {
       "label": "SIH 2026 Field Drug Kit",
       "reading_window_s": 5,
-      "max_de": 12.0,
+      "max_de": 20.0,
       "min_margin": 4.0,
       "calibrated": false,
       "classes": {
