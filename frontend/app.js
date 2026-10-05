@@ -140,8 +140,9 @@ async function viewCapture() {
   cleanup = () => stream && stream.getTracks().forEach((t) => t.stop());
   locate(); paintGps();
   try {
-    stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: { ideal: "environment" }, width: { ideal: 1920 }, height: { ideal: 1080 } }, audio: false });
+    stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: { ideal: "environment" } }, audio: false });
     vid.srcObject = stream;
+    vid.play().catch(()=>{});
   } catch (e) {
     q("#cerr").innerHTML = `<div class="warn">Camera unavailable: ${esc(e.message)}. The app needs HTTPS (or localhost) and camera permission. Photos cannot be chosen from the gallery.</div>`;
     q("#snap").disabled = true; return;
